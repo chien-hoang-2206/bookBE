@@ -2,9 +2,11 @@ import express from 'express';
 import homeRouter from './routes/home';
 import aboutRouter from './routes/about';
 
-export const app = express();
+const app = express();
 
 app.use('/home', homeRouter);
 app.use('/about', aboutRouter);
 
-``
+app.listen(4096, () => {
+  console.log('starting server on Port');
+});
