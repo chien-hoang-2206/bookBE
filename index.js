@@ -1,10 +1,12 @@
-import express from 'express'
+import express from 'express';
+import homeRouter from './routes/home';
+import aboutRouter from './routes/about';
 
-const app = express()
-app.get('/',(req,res) =>{
-    res.send('Express vervel app response')
-})
+const app = express();
 
-app.listen('4096',()=>{
-    console.log('app is rubgnning');
-})
+app.use('/home', homeRouter);
+app.use('/about', aboutRouter);
+
+app.listen(4096, () => {
+  console.log('App is running on port 4096');
+});
