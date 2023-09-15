@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:dc="http://purl.org/dc/terms/"
+         xmlns:schema="http://schema.org/">
+
+  <rdf:Description rdf:about="#the-hobbit">
+    <rdf:type rdf:resource="http://schema.org/Book" />
+    <dc:title>Vũ Thần Chúa Tể</dc:title>
+    <dc:creator>Ám Ma Sư</dc:creator>
+    <dc:id>64381249449ea9477b8b72d2</dc:id>
+    <dc:img>https://static.cdnno.com/poster/vu-than-chua-te/300.jpg?1585205086</dc:img>
+    <dc:postedBy>642b7397e0a4980769672070</dc:postedBy>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#the-lord-of-the-rings">
+    <rdf:type rdf:resource="http://schema.org/Book" />
+    <dc:title>Tuyệt Thế Yêu Đế</dc:title>
+    <dc:creator>Ám Ma Sư</dc:creator>
+    <dc:id>643812fb449ea9477b8b72d7</dc:id>
+    <dc:img>https://static.cdnno.com/poster/tuyet-the-yeu-de-am-ma-su/300.jpg?1585205754</dc:img>
+    <dc:postedBy>642b7397e0a4980769672070</dc:postedBy>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#the-silmarillion">
+    <rdf:type rdf:resource="http://schema.org/Book" />
+    <dc:title>Vạn Giáo Tổ Sư</dc:title>
+    <dc:creator>Chòm Sao Quỷ Vương</dc:creator>
+    <dc:id>643c1deb846d4044a2b4578a</dc:id>
+    <dc:img>https://static.cdnno.com/poster/van-giao-to-su/300.jpg?1668942689</dc:img>
+    <dc:postedBy>6437b6f9f0414a1918785783</dc:postedBy>
+  </rdf:Description>
+
+</rdf:RDF>
